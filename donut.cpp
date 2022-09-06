@@ -52,7 +52,7 @@ int main(){
          cout<<"\x1b[d";
         for(int k=0;k<1761;k++)
         {
-            putchar(k%80!=0?b[k]:10);
+            putchar(k%80!=0?b[k]:10);//10 is ASCII for line feed
         }
         A=A+0.04;
  	    B=B+0.02;      
